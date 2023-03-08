@@ -22,7 +22,7 @@ See our MIDL 2023 paper here:
 3. We show that our method achieves fair accuracy (>84% top-1 accuracy, >95% top-2) on IAPs that are more challenging to predict, such as contrast agent type.
 4. We demonstrate a realistic application of our model: using it to sort new unlabeled data into different domains to determine which models to apply to the data for a downstream task.
 
-![Our MR image Acquisition Parameter (IAP) Extraction Model.](figures/predictions.png)
+![Our MR image Acquisition Parameter (IAP) Extraction Model.](figures/model.png)
 
 ## How To Use Our Code / Reproduce Our Results
 
