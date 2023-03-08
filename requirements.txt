@@ -1,0 +1,12 @@
+numpy
+scipy
+tqdm
+pandas
+matplotlib
+sklearn
+scikit-learn
+scikit-image
+scikit-optimize
+pydicom
+tensorboardX
+Pillow

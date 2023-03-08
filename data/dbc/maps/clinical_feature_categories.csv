@@ -1,0 +1,81 @@
+﻿Days to MRI (From the Date of Diagnosis),Manufacturer,Manufacturer Model Name,Scan Options,Field Strength (Tesla),Patient Position During MRI,Image Position of Patient,Contrast Agent,Contrast Bolus Volume (mL),TR (Repetition Time),TE (Echo Time),Acquisition Matrix,Slice Thickness ,Rows,Columns,Reconstruction Diameter ,"Flip Angle 
+",FOV Computed (Field of View) in cm ,Date of Birth (Days),Menopause (at diagnosis),Race and Ethnicity,Metastatic at Presentation (Outside of Lymph Nodes),ER,PR,HER2,Mol Subtype,Oncotype score,Staging(Tumor Size)# [T],Staging(Nodes)#(Nx replaced by -1)[N],Staging(Metastasis)#(Mx -replaced by -1)[M],Tumor Grade,,,Nottingham grade,Histologic type,Tumor Location,Position,Bilateral Information,,,For Other Side If Bilateral,,,,,,,Multicentric/Multifocal,Contralateral Breast Involvement,Lymphadenopathy or Suspicious Nodes,Skin/Nipple Invovlement,Pec/Chest Involvement,Surgery,Days to Surgery (from the date of diagnosis),Definitive Surgery Type,Neoadjuvant Radiation Therapy,Adjuvant Radiation Therapy,"Clinical Response, Evaluated Through Imaging ",Pathologic Response to Neoadjuvant Therapy,Recurrence event(s),Days to local recurrence (from the date of diagnosis) ,Days to distant recurrence(from the date of diagnosis) ,Days to death (from the date of diagnosis) ,Days to last local recurrence free assessment (from the date of diagnosis) ,Days to last distant recurrence free assemssment(from the date of diagnosis) ,"Age at last contact in EMR f/u(days)(from the date of diagnosis) ,last time patient known to be alive, unless age of death is reported(in such case the age of death",,Age at mammo (days),Breast Density,Shape,Margin,Architectural distortion,Mass Density,Calcifications,Tumor Size (cm),Shape,Margin,Tumor Size (cm),Echogenicity,Solid,Posterior acoustic shadowing,Neoadjuvant Chemotherapy,Adjuvant Chemotherapy,Neoadjuvant Endocrine Therapy Medications ,Adjuvant Endocrine Therapy Medications ,Known Ovarian Status ,"Number of Ovaries In Situ 
+",Therapeutic or Prophylactic Oophorectomy as part of Endocrine Therapy ,Neoadjuvant Anti-Her2 Neu Therapy,Adjuvant Anti-Her2 Neu Therapy ,Received Neoadjuvant Therapy or Not,Pathologic response to Neoadjuvant therapy: Pathologic stage (T) following neoadjuvant therapy ,Pathologic response to Neoadjuvant therapy:  Pathologic stage (N) following neoadjuvant therapy,Pathologic response to Neoadjuvant therapy:  Pathologic stage (M) following neoadjuvant therapy ,Overall Near-complete Response:  Stricter Definition,Overall Near-complete Response:  Looser Definition,Near-complete Response (Graded Measure)
+,"GE MEDICAL SYSTEMS=0, MPTronic software=1, SIEMENS=2","Avanto=0, Optima MR450w=1, SIGNA EXCITE=2, SIGNA HDx=3, Signa HDxt=4, Skyra=5, Trio=6, TrioTim=7","FAST_GEMS\SAT_GEMS\ACC_GEMS\PFP\FS=0,FAST_GEMS\SAT_GEMS\MP_GEMS\ACC_GEMS\PFP\FS=1,FAST_GEMS\SAT_GEMS\MP_GEMS\PFP\FS=2,FAST_GEMS\SAT_GEMS\PFP\FS=3,FS=4,PFP\FS=5,PFP\SFS=6,SAT_GEMS\PFP\FS=7,SFS=8","1.494=0,1.5=1,2.8936=2,3=3","FFP=0,HFP=1",,"GADAVIST=0,MAGNEVIST=1,MMAGNEVIST=2,MULTIHANCE=3,Name of agent not stated(but ContrastBolusAgent tag was present)=4, ContrastBolusAgent Tag Absent = 5 ","6=0,7=1,8=2,9=3,10=4,11=5,11.88=6,12=7,13=8,13.6=9,14=10,14.5=11,15=12,16=13,17=14,18=15,19=16,20=17,25=18",,,"320 X 320=0,340 X 340=1,350 X 350=2,360 X 360=3,384 X 360=4,384 X 384=5,448 X 251=6,448 X 381=7,448 X 430=8,448 X 448=9,512 X 358=10","0.9=0,0.95=1,1=2,1.04=3,1.06=4,1.1=5,1.12=6,1.15=7,1.2=8,1.23=9,1.24=10,1.25=11,1.3=12,1.4=13,1.45=14,1.5=15,1.6=16,1.8=17,2=18,2.2=19,2.5=20","320=0,448=1,512=2","320=0,448=1,512=2","260=0,270=1,280=2,290=3,300=4,305=5,310=6,320=7,330=8,340=9,350=10,360=11,370=12,380=13,390=14,400=15,410=16,420=17,430=18,480=19","7=0,8=1,10=2,12=3","250=0,260=1,270=2,280=3,290=4,300=5,303=6,305=7,310=8,320=9,330=10,340=11,345=12,346=13,350=14,360=15,365=16,370=17,375=18,380=19,390=20,400=21,410=22,420=23,430=24,440=25,480=26","(Taking date of diagnosis as day 0) [Functional Check : numeric entries will be negative only, non-numeric ones will be NA or NC ]","{0 = pre,
+1 = post,
+2 = N/A}","{0 = N/A
+1 = white,
+2 = black,
+3 = asian,
+4 = native,
+5 = hispanic,
+6 = multi,
+7 = hawa,    8 = amer indian}","{0 = no
+1 = yes}","{0 = neg,
+1 = pos}","{0 = neg,
+1 = pos}","{0 = neg,
+1 = pos, 2 = borderline}","{0 = luminal-like,
+1 = ER/PR pos, HER2 pos,
+2 = her2,
+3 = trip neg}",,,,,"Tumor Grade(T)
+(Tubule)","Tumor Grade(N)
+(Nuclear)","Tumor Grade(M)
+(Mitotic)","1=low 2=intermediate 3=high
+","0=DCIS 1=ductal 2=lobular 3=metaplastic 4=LCIS 5=tubular 6=mixed 7=micropapillary 8=colloid 9=mucinous 10=medullary
+",Side of cancer L=left R=right,Position (every bx positive for invasive cancer)(used during annotation),"Bilateral breast cancer?
+{ 0=no 1=yes}","If Bilateral, Different Rec Status
+{0=no 1=yes}","Side Annotated
+{L=left R=right}","Side of cancer (for the other side)
+{L=left, R=right}",Oncotype score (for the other side){##},Nottingham grade (for the other side){#},"ER (for the other side)
+{0 = neg, 1 = pos}","PR (for the other side)
+{0 = neg, 1 = pos}","HER2 (for the other side)
+{0 = neg, 1 = pos, 2=borderline}","Mol Subtype (for the other side)
+{0 = luminal-like, 1 = ER/PR pos, HER2 pos, 2 = her2,
+3 = trip neg}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no,1 = yes}",,"{0=BCS, 1=mastectomy}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{1=complete response on imaging, 2=not complete response, 3=imaging to assess treatment response is unavailable, NA=no neoadjuvant therapy or not enough information to assess neoadjuvant therapy status}"," {1=complete response, 2=not complete response, 3=DCIS only remaining, 4=LCIS only remaining, 5=treatment response assessment unavailable, NA=no neoadjuvant therapy or not enough information to assess neoadjuvant therapy status}","{0 = no, 1 = yes}",,,,,,,,,"{0=heterogeneous, 1=scattered, 2=minimal, 3=moderate, 4=extremely, 5=predominantly fatty}","{0=oval, 1=irregular, 2=lobular, 3=reniform, 4=stellate}","{0=obscured, 2=spiculated, 3=indistinct/ill-defined, 4=circumscribed}",,,"{0=pleomorphic, 1=yes, 2=heterogeneous 3=microcalc 4=linear, 5=clustered, 6=amorphous, 7=branching}",,"{0=oval, 1=irregular, 2=lobular}","{0=obscured, 1=ill-defined, 2=spiculated, 3=indistinct, 4=circumscribed, 5=microlobulated, 6=angular, 7=irregular}",,"{0=hypoechoic, 1=hyperechoic, 2=isoechoic, 3=anechoic, 4=irregular, 5=mixed, 6=boundary}",,,"{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no, 1 = yes}","{0 = no ovaries intact, 1 = 1 ovary intact, 2 = 2 ovaries intact, NP = not pertinent to this case}","{0 = no, 1 = yes, NP = not pertinent}"," {0 = no, 1 = yes}"," {0 = no, 1 = yes}","{1 = yes, 2 = no, NA = not applicable}",{ -1 = TX;  0 = T0;  1 = T1;  2 = T2;  3 = T3;  4 = T4;  5 = Tis (DCIS);  NA = not applicable}, { -1 = NX;  0 = N0;  1 = N1;  2 = N2;  3 = N3; NA = not applicable},{ -1 = MX;  0 = M0;  1 = M1;  NA = not applicable},"{0 = not complete or near-complete, 1 = complete, 2 = near-complete, 3 = pathologic assessment not available, NA = not applicable} 
+*Strict definition of Near-complete includes the following definitions [from column QK ""Near complete response (graded measure)""]:
+2 = Near complete (pathology report noted results constituted near-complete response to NAT)
+3 = No residual disease, only atypical ductal hyperplasia
+4 = No invasive carcinoma, DCIS only
+5 = No invasive carcinoma, LCIS only
+6 = 90% reduction in tumor volume
+7 = 95% reduction
+18 = 99% of tumor obliterated but extensive residual DCIS","{0 = not complete or near-complete, 1 = complete, 2 = near-complete, 3 = pathologic assessment not available, NA = not applicable} 
+*Loose definition of Near-complete includes the following definitions [from column QK ""Near complete response (graded measure)""]:
+2 = Near complete (pathology report noted results constituted near-complete response to NAT)
+3 = No residual disease, only atypical ductal hyperplasia
+4 = No invasive carcinoma, DCIS only
+5 = No invasive carcinoma, LCIS only
+6 = 90% reduction in tumor volume
+7 = 95% reduction
+8 = Near complete but DCIS
+9 = 90% reduction with DCIS present
+10 = No invasive disease but lymph nodes positive
+11 = No residual disease, but positive LNs and DCIS
+12 = Near complete response noted on path report, but positive LNs
+13 = 98% reduction with positive LNs
+14 = 95% fibrosis but positive lymph nodes
+15 = 90% reduction with positive LNs
+16 = > 95% reduction with only mucinous pools remaining
+17 = 1mm residual invasive but extensive DCIS
+18 = 99% of tumor obliterated but extensive residual DCIS","{0 = Not complete or near-complete;  1 = Complete;  2 = Near complete (pathology report noted results constituted near-complete response to NAT);  3 = No residual disease, only atypical ductal hyperplasia;  4 = No invasive carcinoma, DCIS only;  5 = No invasive carcinoma, LCIS only;  6 = 90% reduction in tumor volume;  7 = 95% reduction;  8 = Near complete but DCIS;  9 = 90% reduction with DCIS present;  10 = No invasive disease but lymph nodes positive;  11 = No residual disease, but positive LNs and DCIS;  12 = Near complete response noted on path report, but positive LNs;  13 = 98% reduction with positive LNs;  14 = 95% fibrosis but positive lymph nodes;  15 = 90% reduction with positive LNs;  16 = > 95% reduction with only mucinous pools remaining;  17 = 1mm residual invasive but extensive DCIS;  18 = 99% of tumor obliterated but extensive residual DCIS;  19 = pathologic assessment not available; NA = not applicable}
+0 = Not complete or near-complete
+1 = Complete
+2 = Near complete (pathology report noted results constituted near-complete response to NAT)
+3 = No residual disease, only atypical ductal hyperplasia
+4 = No invasive carcinoma, DCIS only
+5 = No invasive carcinoma, LCIS only
+6 = 90% reduction in tumor volume
+7 = 95% reduction
+8 = Near complete but DCIS
+9 = 90% reduction with DCIS present
+10 = No invasive disease but lymph nodes positive
+11 = No residual disease, but positive LNs and DCIS
+12 = Near complete response noted on path report, but positive LNs
+13 = 98% reduction with positive LNs
+14 = 95% fibrosis but positive lymph nodes
+15 = 90% reduction with positive LNs
+16 = > 95% reduction with only mucinous pools remaining
+17 = 1mm residual invasive but extensive DCIS
+18 = 99% of tumor obliterated but extensive residual DCIS
+19 = pathologic assessment not available
+NA = not applicable"
