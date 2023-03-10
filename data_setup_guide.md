@@ -13,10 +13,8 @@ This paper involves training models on seven different radiological image datase
 
 4. Once all of the data is downloaded, it will be in a folder named `manifest-{...}`, where `{...}` is some auotgenerated string of numbers, for example `manifest-1607053360376`. This folder may be within a subdirectory or two. Move this manifest folder into `data/dbc`.
 
-5. Open the IPython notebook `data/dbc/png_extractor.ipynb`; in cell 2, modify `data_path` in line 4 to be equation to the name of your manifest folder, `manifest-{...}`.
+5. Open the Python file `data/dbc/png_extractor.py`; on line 13, modify `data_path` in line 4 to be equation to the name of your manifest folder, `manifest-{...}`.
 
-6. Run all cells of this IPython notebook to extract .png images from the raw DICOM files into `data/dbc/png_out`.
+6. Run `data/dbc/png_extractor.py` to extract the .png images from the raw DICOM files into `data/dbc/png_out`. This will also create the subset of images that we'll use for experiments, and sort them by scanner manufacturer.
 
-7. To create the subset of images that we'll use for experiments, and sort them by scanner manufacturer, run the IPython notebook `data/dbc/make_subset.ipynb`.
-
-8. Feel free to delete the original DICOM files in your manifest folder once this is complete, as well as `data/dbc/png_out`, to save space.
+7. Feel free to delete the original DICOM files in your manifest folder once this is complete, as well as `data/dbc/png_out`, to save space.

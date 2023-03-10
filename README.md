@@ -41,10 +41,10 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 Please follow the instuctions in `data_setup_guide.md`.
 
 ### (2) Training and Testing IAP Prediction Model on Breast MRIs
-Run `main.ipynb` to train and test our model with the same settings as in the paper. As a side note, the new IAP prediction loss is found in `src/IAP_model.py`.
+Run `main.py` to train and test our model with the same settings as in the paper. As a side note, the new IAP prediction loss is found in `src/IAP_model.py`.
 
 ### (3) Analyzing Dataset IAP Distributions and Statistics
-These results were shown in the paper's supplementary materials; they can be reproduced with `analyze_IAPs.ipynb`.
+These results were shown in the paper's supplementary materials; they can be reproduced with `analyze_IAPs.py`.
 
 ## Citation
 
