@@ -12,7 +12,7 @@ The image acquisition parameters (IAPs) used to create MRI scans are central to 
 
 See our MIDL 2023 paper here:
 
-- arXiv preprint version (open access):
+- arXiv preprint version (open access): [https://arxiv.org/abs/2303.04911](https://arxiv.org/abs/2303.04911)
 - published version: upcoming
 
 ## Our Contributions
