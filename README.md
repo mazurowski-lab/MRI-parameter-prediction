@@ -1,14 +1,12 @@
 # Code: Predicting MRI Acquisition Parameters Solely from Images using Deep Learning 
 
-## by Nicholas Konz and Maciej Mazurowski
-
-### For *Reverse Engineering Breast MRIs: Predicting Acquisition Parameters Directly from Images* (MIDL 2023)
+#### By [Nicholas Konz](https://nickk124.github.io/) and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2303.04911-orange.svg?style=flat)](https://arxiv.org/abs/2303.04911)
-https://arxiv.org/abs/2303.04911
+
+This is the official repository for our MIDL 2023 paper [*Reverse Engineering Breast MRIs: Predicting Acquisition Parameters Directly from Images*](https://arxiv.org/abs/2303.04911), where we introduce a neural network model that can predict many acquisition parameters that generated a breast MR image, using only the image itself, to high accuracy in a single forward pass.
 
 ![Example Predictions of Acquisition Parameters for MRIs in the Test Set Using Our Model.](figures/predictions.png)
-
 
 ## How To Use Our Code / Reproduce Our Results
 
