@@ -1,4 +1,4 @@
-# Code: Predicting MRI Acquisition Parameters Solely from Images using Deep Learning 
+# Predicting MRI Acquisition Parameters Solely from Images using Deep Learning 
 
 #### By [Nicholas Konz](https://nickk124.github.io/) and [Maciej Mazurowski](https://sites.duke.edu/mazurowski/).
 
