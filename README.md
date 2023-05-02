@@ -4,25 +4,11 @@
 
 ### For *Reverse Engineering Breast MRIs: Predicting Acquisition Parameters Directly from Images* (MIDL 2023)
 
+[![arXiv Paper](https://img.shields.io/badge/arXiv-2303.04911-orange.svg?style=flat)](https://arxiv.org/abs/2303.04911)
+https://arxiv.org/abs/2303.04911
+
 ![Example Predictions of Acquisition Parameters for MRIs in the Test Set Using Our Model.](figures/predictions.png)
 
-### Paper Abstract
-
-The image acquisition parameters (IAPs) used to create MRI scans are central to defining the appearance of the images. Deep learning models trained on data acquired using certain parameters might not generalize well to images acquired with different parameters. Being able to recover such parameters directly from an image could help determine whether a deep learning model is applicable, and could assist with data harmonization and/or domain adaptation. Here, we introduce a neural network model that can predict many complex IAPs used to generate an MR image with high accuracy solely using the image, with a single forward pass. These predicted parameters include field strength, echo and repetition times, acquisition matrix, scanner model, scan options, and others. Even challenging parameters such as contrast agent type can be predicted with good accuracy. We perform a variety of experiments and analyses of our model's ability to predict IAPs on many MRI scans of new patients, and demonstrate its usage in a realistic application. Predicting IAPs from the images is an important step toward better understanding the relationship between image appearance and IAPs. This in turn will advance the understanding of many concepts related to the generalizability of neural network models on medical images, including domain shift, domain adaptation, and data harmonization.
-
-See our MIDL 2023 paper here:
-
-- arXiv preprint version (open access): [https://arxiv.org/abs/2303.04911](https://arxiv.org/abs/2303.04911)
-- published version: upcoming
-
-## Our Contributions
-
-1. We introduce a neural network model for predicting many categorical and continuous image acquisition parameters (IAPs) of a breast MR image in one forward pass, trained via multi-task learning.
-2. We show that our model predicts many complex IAPs of MRI scans of new patients to high accuracy, over a test set of about 2,000 slice images, with a series of experiments. We predict six out of ten categorical IAPs to >97% top-1 accuracy on the test set, and all but two with >95% top-2 accuracy.
-3. We show that our method achieves fair accuracy (>84% top-1 accuracy, >95% top-2) on IAPs that are more challenging to predict, such as contrast agent type.
-4. We demonstrate a realistic application of our model: using it to sort new unlabeled data into different domains to determine which models to apply to the data for a downstream task.
-
-![Our MR image Acquisition Parameter (IAP) Extraction Model.](figures/model.png)
 
 ## How To Use Our Code / Reproduce Our Results
 
@@ -58,4 +44,20 @@ Please cite the paper if you use or reference it in your work (published version
 }
 ```
 
+### Paper Abstract
 
+The image acquisition parameters (IAPs) used to create MRI scans are central to defining the appearance of the images. Deep learning models trained on data acquired using certain parameters might not generalize well to images acquired with different parameters. Being able to recover such parameters directly from an image could help determine whether a deep learning model is applicable, and could assist with data harmonization and/or domain adaptation. Here, we introduce a neural network model that can predict many complex IAPs used to generate an MR image with high accuracy solely using the image, with a single forward pass. These predicted parameters include field strength, echo and repetition times, acquisition matrix, scanner model, scan options, and others. Even challenging parameters such as contrast agent type can be predicted with good accuracy. We perform a variety of experiments and analyses of our model's ability to predict IAPs on many MRI scans of new patients, and demonstrate its usage in a realistic application. Predicting IAPs from the images is an important step toward better understanding the relationship between image appearance and IAPs. This in turn will advance the understanding of many concepts related to the generalizability of neural network models on medical images, including domain shift, domain adaptation, and data harmonization.
+
+See our MIDL 2023 paper here:
+
+- arXiv preprint version (open access): [https://arxiv.org/abs/2303.04911](https://arxiv.org/abs/2303.04911)
+- published version: upcoming
+
+## Our Contributions
+
+1. We introduce a neural network model for predicting many categorical and continuous image acquisition parameters (IAPs) of a breast MR image in one forward pass, trained via multi-task learning.
+2. We show that our model predicts many complex IAPs of MRI scans of new patients to high accuracy, over a test set of about 2,000 slice images, with a series of experiments. We predict six out of ten categorical IAPs to >97% top-1 accuracy on the test set, and all but two with >95% top-2 accuracy.
+3. We show that our method achieves fair accuracy (>84% top-1 accuracy, >95% top-2) on IAPs that are more challenging to predict, such as contrast agent type.
+4. We demonstrate a realistic application of our model: using it to sort new unlabeled data into different domains to determine which models to apply to the data for a downstream task.
+
+![Our MR image Acquisition Parameter (IAP) Extraction Model.](figures/model.png)
