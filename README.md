@@ -34,10 +34,10 @@ These results were shown in the paper's supplementary materials; they can be rep
 
 Please cite the paper if you use or reference it in your work (published version to be released):
 ```bib
-@article{konz2023reverse,
+@inproceedings{konz2023reverse,
   title={Reverse Engineering Breast MRIs: Predicting Acquisition Parameters Directly from Images},
   author={Konz, Nicholas and Mazurowski, Maciej A},
-  journal={arXiv preprint arXiv:2303.04911},
+  booktitle={Medical Imaging with Deep Learning},
   year={2023}
 }
 ```
