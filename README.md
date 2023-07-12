@@ -9,7 +9,7 @@ This is the official repository for our MIDL 2023 paper [*Reverse Engineering Br
 ![Example Predictions of Acquisition Parameters for MRIs in the Test Set Using Our Model.](figures/predictions.png)
 
 ## Trained model
-Our trained PyTorch model checkpoint is [here](https://drive.google.com/file/d/1VNpXst4jDASJE0thntL__3Pns_16Ai-H/view).
+The PyTorch checkpoint for our trained breast MRI acquisition parameter network is [here](https://drive.google.com/file/d/1VNpXst4jDASJE0thntL__3Pns_16Ai-H/view).
 
 ## How To Use Our Code / Reproduce Our Results
 
