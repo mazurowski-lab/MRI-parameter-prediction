@@ -8,6 +8,9 @@ This is the official repository for our MIDL 2023 paper [*Reverse Engineering Br
 
 ![Example Predictions of Acquisition Parameters for MRIs in the Test Set Using Our Model.](figures/predictions.png)
 
+## Trained model
+Our trained PyTorch model checkpoint is [here](https://drive.google.com/file/d/1VNpXst4jDASJE0thntL__3Pns_16Ai-H/view).
+
 ## How To Use Our Code / Reproduce Our Results
 
 ### (0) Requirements
@@ -15,10 +18,8 @@ This is the official repository for our MIDL 2023 paper [*Reverse Engineering Br
 You'll need the Python packages outlined in `requirements.txt`, to run with Python 3, along with an updated version of PyTorch. These can be accomplished with:
 
 ```
-
 pip3 install -r requirements.txt
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
-
 ```
 
 ### (1) Data setup
@@ -26,6 +27,8 @@ Please follow the instuctions in `data_setup_guide.md`.
 
 ### (2) Training and Testing IAP Prediction Model on Breast MRIs
 Run `main.py` to train and test our model with the same settings as in the paper. As a side note, the new IAP prediction loss is found in `src/IAP_model.py`.
+
+You can find our trained model [here](https://drive.google.com/file/d/1VNpXst4jDASJE0thntL__3Pns_16Ai-H/view), if you don't want to train from scratch on your own dataset.
 
 ### (3) Analyzing Dataset IAP Distributions and Statistics
 These results were shown in the paper's supplementary materials; they can be reproduced with `analyze_IAPs.py`.
